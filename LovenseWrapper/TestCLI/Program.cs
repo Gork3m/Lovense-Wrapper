@@ -34,7 +34,7 @@ namespace TestCLI {
             Debug.Log("press any key to stop vibrating", ConsoleColor.Cyan);
             Console.ReadLine();
             session.toy.Vibrate(0);
-            
+            session.Disconnect();
             
 
             Console.ReadLine();
